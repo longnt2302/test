@@ -1,0 +1,40 @@
+/* selector (bộ chọn) */
+/* element (h1,p,a) */
+h1 {
+    background-color: orange;
+    text-align: center;
+    color: white;
+}
+
+/* id */
+#demo {
+    /* giúp tăng kích thuớc nội dung */
+    font-size: 40px;
+    background-color: black;
+}
+
+#demo2 {
+    background-color: green;
+    font-size: 100px;
+}
+
+.demo3{
+    background-color: blue;
+    color: white;
+}
+
+/* Yêu cầu: thực hiện tạo cho thẻ h1 đầu tiên sẽ có màu xanh lá và kích thuớc lớn hơn thẻ h1 thứ 2 */
+
+/* selector theo quan hệ cha con */
+
+/* selector element = 1 */
+/* selector id = 100 */
+/* selector class = 10 */
+
+div .demo4{
+    background-color: orange;
+    color: white;
+}
+div .demo4:last-child{
+    text-align: right;
+}
